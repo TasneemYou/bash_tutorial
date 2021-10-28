@@ -1,0 +1,26 @@
+   33  touch ~/.bashrc
+   34  touch ~/.bash_profile
+   35  open ~/.bash_profile
+   36  vim ~/.bash_profile
+   37  source ~/.bash_profile
+   38  nano ~/.bash_profile
+   39  source ~/.bash_profile
+   40  nano ~/.bash_profile
+   41  nano ~/.bash_profile
+   42  source ~/.bash_profile
+   43  mkdir bash_assignment
+   44  cd bash_assignment/
+   45  touch new_file.txt
+   46  nano new_file.txt
+   47  cat new_file.txt
+   48  head -n 5 new_file.txt
+   49  head tail new_file.txt
+   50  tail new_file.txt
+   51  less -s new_file.txt
+   52  cat new_file.txt
+   53  cat new_file.txt | cut -f 2
+   54  cat new_file.txt | cut -f 2 | uniq -c
+   55  cat new_file.txt | cut -f 2 | sort
+   56  cat new_file.txt | cut -f 2 | sort | uniq -c
+   57  cat new_file.txt | cut -f 2 | sort | uniq -c | sort -k1,1nr
+   58  history
